@@ -32,7 +32,7 @@ export const create = async (req, res) => {
 export const get = (req, res) => {
     let morse = morses[req.params.id]
     if (morse) {
-        res.send({ data: morse })
+        res.send({ morse })
     } else {
         res.status
         res.send({
