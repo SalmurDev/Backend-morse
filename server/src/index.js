@@ -1,6 +1,6 @@
 import express from "express";
 import cors from 'cors';
-import * as morse from './morse-routes.mjs';
+import * as morse from './morses-routes.mjs';
 import bodyParser from 'body-parser';
 const app = express()
 const port = 8000
